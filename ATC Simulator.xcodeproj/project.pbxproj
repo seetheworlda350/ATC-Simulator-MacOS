@@ -6,9 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0902C1E52E181DD000AB3B6D /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 0902C1E42E181DD000AB3B6D /* TestPlan.xctestplan */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0902C1B52E1810AB00AB3B6D /* ATC Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATC Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0902C1C62E1810AB00AB3B6D /* ATC Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATC Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0902C1E42E181DD000AB3B6D /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -77,6 +82,7 @@
 		0902C1A72E1810A800AB3B6D = {
 			isa = PBXGroup;
 			children = (
+				0902C1E42E181DD000AB3B6D /* TestPlan.xctestplan */,
 				0902C1AC2E1810A900AB3B6D /* ATC Simulator Shared */,
 				0902C1B72E1810AB00AB3B6D /* ATC Simulator iOS */,
 				0902C1C72E1810AB00AB3B6D /* ATC Simulator macOS */,
@@ -183,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0902C1E52E181DD000AB3B6D /* TestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
